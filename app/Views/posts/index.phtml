@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <h1><?php $this->getpageTitle(); ?></h1>
+        <a href="/post/create" class="btn btn-primary pull-right">
+            <i class="glyphicon glyphicon-plus-sign"></i> New post
+        </a>
+    </div>
+
+    <?php foreach ($this->view->posts as $post): ?>
+        <div class="row">
+            <h3><a href="/post/<?php echo $post->id; ?>/show"><?php echo $post->title; ?></a></h3>
+            <p class="text-justify">
+                <?php echo $post->content; ?>
+            </p>
+            <p class="text-right">
+                <a href="/post/<?php echo $post->id; ?>/edit" class="btn btn-warning btn-xs">
+                    <i class="glyphicon glyphicon-pencil"></i>
+                </a>
+            </p>
+        </div>
+        <hr>
+    <?php endforeach; ?>
+
+</div>

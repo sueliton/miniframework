@@ -1,0 +1,21 @@
+{
+    "name": "smm/microframework",
+    "Description": "Micro framwork MVC",
+    "icense": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sueliton Miguel Martins",
+            "email": "sueliton@live.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    }
+}
