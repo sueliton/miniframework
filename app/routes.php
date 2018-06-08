@@ -8,6 +8,7 @@ $rout[] = ['/post/create', 'PostsController@create'];
 $rout[] = ['/post/store', 'PostsController@store'];
 $rout[] = ['/post/{id}/edit', 'PostsController@edit'];
 $rout[] = ['/post/{id}/update', 'PostsController@update'];
+$rout[] = ['/post/{id}/delete', 'PostsController@delete'];
 
 
 return $rout;

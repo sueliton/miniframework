@@ -12,9 +12,9 @@ return [
     
     'mysql' => [
         'host' => 'localhost',
-        'database' => 'curso_microframework',
-        'user' => 'root',
-        'pass' => '',
+        'database' => 'id6107286_miniframework',
+        'user' => 'id6107286_sueliton',
+        'pass' => '22051994',
         'charset' => 'utf8',
         'collation' => 'utf8_unicode_ci'
     ]

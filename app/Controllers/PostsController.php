@@ -78,8 +78,15 @@ class PostsController extends BaseController {
             Redirect::route("/posts");
         } else {
             echo 'Erro ao atualizar';
+        }    
+    }
+    
+    public function delete($id) {
+        if ($this->post->delete($id)) {
+            Redirect::route("/posts");
+        } else {
+            echo 'Erro ao excluir';
         }
-        
     }
 
 }
