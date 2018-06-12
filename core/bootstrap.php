@@ -4,4 +4,3 @@
 
 $routes = require_once __DIR__.'/../app/routes.php';
 $rout = new \Core\Route($routes);
-

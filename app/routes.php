@@ -12,4 +12,3 @@ $rout[] = ['/post/{id}/delete', 'PostsController@delete'];
 
 
 return $rout;
-

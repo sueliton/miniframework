@@ -11,10 +11,10 @@ return [
     ],
     
     'mysql' => [
-        'host' => 'localhost',
-        'database' => 'id6107286_miniframework',
-        'user' => 'id6107286_sueliton',
-        'pass' => '22051994',
+        'host' => 'sql207.epizy.com',
+        'database' => 'epiz_22223123_posts',
+        'user' => 'epiz_22223123',
+        'pass' => '9lVuCpIsyrv9Ur0',
         'charset' => 'utf8',
         'collation' => 'utf8_unicode_ci'
     ]
